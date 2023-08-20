@@ -3,12 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Kumpulan Program Sederhana")
+	developerName := "Nurul Aliyah"
+	copyRight := "August 2023"
+
+	fmt.Println("Nama: ", developerName)
+	fmt.Println(copyRight)
+	fmt.Println("")
+
+	fmt.Println("\t\tKumpulan Program Sederhana")
 }
 
 func menu() {
 	var menu int
 
+	fmt.Println("------------------------------------------------------------------")
 	fmt.Println("Menu: ")
 	fmt.Println("1. Menghitung Luas Trapesium")
 	fmt.Println("2. Menentukan Bilangan Ganjil-Genap")
