@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World!")
+	fmt.Println("Kumpulan Program Sederhana")
 }
 
 func menu() {
@@ -18,4 +18,19 @@ func menu() {
 
 	fmt.Print("Pilihan Menu : ")
 	fmt.Scan(&menu)
+
+	switch menu {
+	case 1:
+		fmt.Println("Program Menghitung Luas Trapesium")
+	case 2:
+		fmt.Println("Program Menentukan Bilangan Ganjil-Genap")
+	case 3:
+		fmt.Println("Program Menentukan Grade")
+	case 4:
+		fmt.Println("Program Menentukan Faktor Bilangan")
+	case 5:
+		fmt.Println("Keluar")
+	default:
+		fmt.Println("Input Invalid")
+	}
 }
