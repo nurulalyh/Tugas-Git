@@ -10,6 +10,7 @@ func main() {
 func menu() {
 	var menu int
 
+	fmt.Println("------------------------------------------------------------------")
 	fmt.Println("Menu: ")
 	fmt.Println("1. Menghitung Luas Trapesium")
 	fmt.Println("2. Menentukan Bilangan Ganjil-Genap")
