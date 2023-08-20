@@ -3,14 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	developerName := "Nurul Aliyah"
-	copyRight := "August 2023"
-
-	fmt.Println("Nama: ", developerName)
-	fmt.Println(copyRight)
-	fmt.Println("")
-
-	fmt.Println("\t\tKumpulan Program Sederhana")
+	fmt.Println("Kumpulan Program Sederhana")
+	menu()
 }
 
 func menu() {
