@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Println("Kumpulan Program Sederhana")
+	menu()
 }
 
 func menu() {
